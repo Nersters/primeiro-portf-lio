@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #555;
+}
+
+header h1 {
+    color: white;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#sessao-imagem {
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+}
+
+#meunome {
+    font-size: 32px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#introdução {
+    /*  max-width: 700px; */
+    display: flex;
+    /* justify-content: center; */
+    background-color: black;
+    color: white;
+
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+#sessao-1 {
+    margin-left: 400px;
+    padding: 5px;
+    padding-top: 60px;
+
+    background-color: #203440;
+    border-radius: 20px;
+    margin-top: 30px;
+
+    height: 400px;
+    width: 750px;
+}
+
+#sessao-1 h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#sobre-mim {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: white;
+}
+
+#caixas {
+    background-color: #203440;
+    height: 250px;
+    width: 700px;
+    display: flex;
+}
+
+.caixinhas {
+    width: 200px;
+    padding: 5px;
+    height: 200px;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#margem {
+    margin-top: 100px;
+}
+
+#left {
+    display: flex;
+    justify-content: center;
+}
+
+#skill {
+    color: white;
+
+    display: flex;
+    justify-content: center;
+}
+
+#python {
+    height: 50px;
+    width: 50px;
+}
+
+#html {
+    height: 60px;
+    width: 60px;
+}
+
+#css {
+    height: 60px;
+    width: 60px;
+}
+
+#javascript {
+    height: 60px;
+    width: 60px;
+}
+
+#sessao-2 {
+    margin-left: 400px;
+    padding: 5px;
+    padding-top: 60px;
+
+    background-color: #203440;
+    border-radius: 20px;
+    margin-top: 30px;
+
+    height: 400px;
+    width: 750px;
+}
+
+#sessao-2 p {
+    padding-bottom: 10px;
+}
+
+#boxes {
+    background-color: #203440;
+    height: 250px;
+    width: 700px;
+    display: flex;
+}
+
+.boxinhos {
+    width: 200px;
+    padding: 5px;
+    height: 200px;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#final {
+    height: 30vh;
+    background-color: #152934;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+#final h2, #final a {
+    color: white;
+    text-decoration: none;
+}
+
+#space {
+    display: flex;
+    justify-content: space-around;
+    font-size: 100px;
+}
